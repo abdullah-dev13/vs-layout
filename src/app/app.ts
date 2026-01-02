@@ -7,7 +7,7 @@ import { RightSidebar } from './right-sidebar/right-sidebar';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, LeftSmallSidebar, LeftSidebar, MainComponent, RightSidebar],
+  imports: [LeftSmallSidebar, LeftSidebar, MainComponent, RightSidebar],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
