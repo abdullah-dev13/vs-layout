@@ -12,5 +12,5 @@ import { RightSidebar } from './right-sidebar/right-sidebar';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('vs-layout');
+  // protected readonly title = signal('vs-layout');
 }
